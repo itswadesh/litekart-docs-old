@@ -66,12 +66,3 @@ Login to cloud shell and run the following command
   ``` bash
 npm start
   ```  
-
-## How to start the documentation server
-<img src="./img/documentation.png" alt="documentation"/>
-
-``` bash
-yarn docs:dev 
-```
-
-Open [http://localhost:8080](http://localhost:8080) for documentaion
