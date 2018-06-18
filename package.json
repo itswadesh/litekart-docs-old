@@ -5,8 +5,8 @@
   "author": "Swadesh Behera <admin@codenx.com>",
   "private": true,
   "scripts": {
-    "docs:dev": "vuepress dev",
-    "docs:build": "vuepress build"
+    "dev": "vuepress dev",
+    "build": "vuepress build"
   },
   "dependencies": {},
   "devDependencies": {
@@ -14,8 +14,7 @@
   },
   "engines": {
     "node": ">=8.x",
-    "npm": ">=5.x",
-    "yarn": "^1.7"
+    "npm": ">=5.x"
   },
   "browserslist": [
     "> 1%",
