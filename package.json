@@ -1,0 +1,25 @@
+{
+  "name": "shopnx-v6-documentation",
+  "version": "6.0.0",
+  "description": "Documentation for ShopNx - A javascript e-commerce",
+  "author": "Swadesh Behera <admin@codenx.com>",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev",
+    "docs:build": "vuepress build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^0.10.1"
+  },
+  "engines": {
+    "node": ">=8.x",
+    "npm": ">=5.x",
+    "yarn": "^1.7"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
