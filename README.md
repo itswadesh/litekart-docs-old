@@ -50,13 +50,14 @@ This is highly scalable and can handle many connections at a time. Ecommerce gia
 Being an **asynchronous event driven architecture** its speed goes upto 5 fold as compared to existing php or wordpress based ecommerce solutions.
 
 ## Past
-ShopNx V6 is an evolution of ShopNx Javascript ecommerce released 3 years back
- - V6 - ShopNx V6 (VueJS)
- - V5 - Skipped because of huge change in core
- - V4 - Arialshop (VueJS)
- - V3 - Hopyshopy (Angular4)
- - V2 - MaterialShop (AngularJS 1.6)
- - V1 - ShopNx (AngularJS 1.5)
+ArialShop V6 is an evolution of ArialShop Javascript ecommerce first released 36 Earthian months back with a code name “ShopNx”
+
+ArialShop V6 – “ArialShop” V6 (VueJS) 
+ArialShop V5 – Redeveloped core engine from scratch during over 8 months 
+ArialShop V4 – “Arialshop” (VueJS) 
+ArialShop V3 – “Hopyshopy” (Angular4) 
+ArialShop V2 – “MaterialShop” (AngularJS 1.6) 
+ArialShop V1 – “ShopNx” (AngularJS 1.5)
 
 ## Upcoming Updates
 - Inventory Manager module
