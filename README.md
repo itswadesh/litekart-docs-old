@@ -13,9 +13,9 @@ features:
 footer: Codecanyon Licensed | Copyright © 2018-present Swadesh Behera
 ---
 
-## About ShopNx
+## About Arialshop
 
-ShopNx is a Javascript ecommerce software that focus mainly on speed and ease of use. It is built over the cutting edge technology and purely modular code.
+Arialshop is a Javascript ecommerce software that focus mainly on speed and ease of use. It is built over the cutting edge technology and purely modular code.
 
 This is based on ReST API and disconnected architecture. Hence you are free to use any front-end or backend. For the same reason I separated both store front and store back office. Now you are free to use any ecommerce service like Moltin or even Firebase.
 

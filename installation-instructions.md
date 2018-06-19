@@ -5,7 +5,7 @@ date: 2018-06-18 06:40:12
 
 # Installation Instructions
 ::: warning COMPATIBILITY NOTE
-ShopNx v6 requires Node.js 8.x
+Arialshop v6 requires Node.js 8.x
 :::
 
 ## Softwares Required
@@ -31,7 +31,7 @@ We also need node-gyp installed. Please follow the steps to install it
 Download and unzip the file from codecanyon and navigate inside the directory
 
 ``` bash
-cd shopnx
+cd arialshop
 ```
 ### Start database
 Start mongodb in a separate shell

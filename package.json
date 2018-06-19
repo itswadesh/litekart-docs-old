@@ -1,7 +1,7 @@
 {
-  "name": "shopnx-v6-documentation",
+  "name": "arialshop-v6-documentation",
   "version": "6.0.0",
-  "description": "Documentation for ShopNx - A javascript e-commerce",
+  "description": "Documentation for Arialshop - A javascript e-commerce",
   "author": "Swadesh Behera <admin@codenx.com>",
   "private": true,
   "scripts": {

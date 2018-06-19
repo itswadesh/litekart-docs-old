@@ -1,5 +1,5 @@
 ---
-title: Settings (ShopNx)
+title: Settings (Arialshop)
 date: 2018-06-18 06:40:12
 ---
 ## Client Settings
