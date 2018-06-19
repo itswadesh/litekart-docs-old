@@ -58,10 +58,11 @@ ShopNx V6 is an evolution of ShopNx Javascript ecommerce released 3 years back
  - V2 - MaterialShop (AngularJS 1.6)
  - V1 - ShopNx (AngularJS 1.5)
 
-## Upcoming Update
+## Upcoming Updates
 - Inventory Manager module
 - Discount Coupons
 - OAUTH Login: google, twitter
+- Commenting system with upvote/downvote
 
 ## Links
 - [Installation](/installation-instructions.html)
