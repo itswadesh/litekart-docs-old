@@ -5,9 +5,9 @@ actionText: Get Started →
 actionLink: /installation-instructions.html
 features:
 - title: Progressive
-  details: Progressive Web App, Bleeding edge, Fast, Lightweight SPA (single page application) ecommerce.
+  details: Offline Ready Progressive Web App, Bleeding edge, Fast, Lightweight SPA (single page application) ecommerce.
 - title: Modular Code
-  details: This component based architecture results clean and modular code which has the power to acomodate any ecommerce need.
+  details: This component based architecture results clean and modular code which has the power to acomodate any ecommerce customizations.
 - title: Performant
   details: Built upon the Full Stack Javascript framework with javascript based MongoDB database which makes it even faster.
 footer: Codecanyon Licensed | Copyright © 2018-present Swadesh Behera

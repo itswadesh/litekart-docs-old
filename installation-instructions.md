@@ -55,11 +55,13 @@ Now open [http://localhost:3000](http://localhost:3000) (Admin Panel) and [http:
 
 <img src="./img/deploy.png" alt="deployment"/>
 
+Add your logo/icon(512px*512px) to static directory of store-front (This step is essential to generate icons for Progressive Web App)
+
 The follwing command will generate both client and server files inside dist directory which can be directly copied to production server
   ``` bash
 npm run prod
   ```  
-Now copy the files inside .nuxt and dist directory to the corresponding production server (Both store front and store back office)
+Now copy the files inside **.nuxt** and **dist** directory to the production server (For both store front and store back office)
 
 ### Start the server
 Login to cloud shell and run the following command
