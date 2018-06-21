@@ -1,5 +1,7 @@
 ---
-title: Change Logs (Development History)
+title: Change Log - Development History
 date: 2018-06-18 06:40:12
 ---
-# Change Log
+## Development History
+
+Update in progress

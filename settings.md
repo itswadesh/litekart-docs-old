@@ -9,15 +9,20 @@ Path: <em>config.js</em>
 ### General Variables
 
 ``` js
-export const typingTimeout = 700 // Used for searching e.g. search.vue
-export const loadingTimeout = 300 // Used for showing the loading indicator at each page
-export const snackTimer = 5000 // The amount of time  the snackbar should be visible
-export const recordsPerScroll = '50' // At a time 50 records will be called from api unless specified explicitly
+proxy: 'http://localhost:3000', //proxy: 'https://admin.arialshop.com',
+WS_URL: 'http://localhost:9000', //proxy: 'https://admin.arialshop.com' Used at plugins/socketjs,
+STRIPE_URL: 'https://api.stripe.com',
+STRIPE_PUBLISHABLE_KEY: 'pk_test_srKHaSHynBIVLX03r33xLszb',
+ANALYTICS_TRACKING_ID: 'UA-49421899-3',
+GOOGLE_MAPS_API_KEY: 'AIzaSyBIG0jd-iPEfUhwt8tD-Tjxt-yrPFgfRXc',
+typingTimeout: 700, // Used for searching e.g. search.vue
+loadingTimeout: 500, // Used for showing the loading indicator at each page
+snackTimer: 5000, // The amount of time  the snackbar should be visible
+recordsPerScroll: 50, // At a time 50 records will be called from api unless specified explicitly
+clearCart: true, // Whether to clear the cart after order is placed. Useful while testing
 export const clearCart = true // Whether to clear the cart after order is placed. Useful while testing
-export const host = 'http://localhost:9000' // Used at plugins/socketjs
-
 ```  
-
+<!-- 
 ### List of order status for order management
 ``` js
 export const orderStatuses = ['Payment Pending', 'Order Placed', 'Order Accepted', 'Order Executed', 'Shipped', 'Delivered', 'Not in Stock', 'Cancellation Requested', 'Cancelled']
@@ -30,22 +35,46 @@ export const paymentStatuses = ['Pending', 'Cancelled', 'Paid']
 ### Enabled payment methods for ecommerce
 ``` js
 export const paymentMethods = ['PayPal', 'COD']
-```  
+```   -->
+
+### User roles
+``` js
+userRoles: ['user', 'vendor', 'manager', 'admin'], // This should be in ascending order of authority. e.g. In this case guest will not have access to any other role, where as admin will have the role of guest+user+vendor+manager+admin
+``` 
+
 ### Regional settings
 ``` js
-static country: any = { name: 'India', code: 'IN' };
-  static currency: any = {
-      symbol: '₹', //Required only for sort icons at homepage
-      code: 'INR', // Shop currency
-      paypal: 'USD',// Paypal currency code *** Please choose from https://developer.paypal.com/docs/classic/api/currency_codes/
-      exchange_rate: '0.015' // Paypal currency code(USD) / Shop currency (INR) ***  exchange_rate should not be 0 else it will generate divided by 0 error
-  };
+country: { name: 'India', code: 'IN' },
+currency: {
+    symbol: '₹', 
+    code: 'INR', // Shop currency
+    paypal: 'USD',// Paypal currency code *** Please choose from https://developer.paypal.com/docs/classic/api/currency_codes/
+    exchange_rate: '0.015' // Paypal currency code(USD) / Shop currency (INR) ***  exchange_rate should not be 0 else it will generate divided by 0 error
+},
+
 ```  
   
 ### Menu for dashboad and header
 
 ``` js
-export const menuItems = [
+menuItems: [
+  { text: 'Dashboard', url: '/admin', icon: 'dashboard', authenticate: 'manager', color: 'black', dashboard: true },
+  { text: 'Orders', url: '/admin/orders', icon: 'watch_later', authenticate: 'user', color: 'pink', dashboard: true },
+  { text: 'My Reviews', url: '/admin/reviews', icon: 'stars', authenticate: 'user', color: 'blue', dashboard: true },
+  { text: 'Manage Address', url: '/admin/address', icon: 'location_on', authenticate: 'user', color: 'dark', dashboard: true },
+  { text: 'My Wishlist', url: '/admin/wishlist', icon: 'favorite', authenticate: 'user', color: 'green', dashboard: true },
+  { text: 'Profile', url: '/account/profile', authenticate: 'user', icon: 'person_pin', color: 'purple' },
+  { text: 'Change Password', url: '/account/change-password', authenticate: 'user', icon: 'lock', color: 'brown' }
+],
+```  
+
+## Server Settings-1
+path: <em>config.js</em>
+
+### Menu Items (Userd at left menu and topmenu)
+
+``` js 
+menuItems: [
   { text: 'Dashboard', url: '/', icon: 'dashboard', authenticate: 'vendor', color: 'black', dashboard: true },
   { text: 'Products', url: '/products/search/', icon: 'store', authenticate: 'vendor', color: 'black', dashboard: true },
   { text: 'Manage Orders', url: '/orders', icon: 'history', authenticate: 'vendor', color: 'orange', dashboard: true },
@@ -65,27 +94,25 @@ export const menuItems = [
   { text: 'Banners', url: '/banners', icon: 'burst_mode', authenticate: 'manager', color: 'yellow', dashboard: true },
   { icon: "help", text: "FAQ", url: "/faq" },
 ]
-```  
+```
 
-
-## Server Settings
+## Server Settings-2
 Path: <em>server/config.ts</em>
 
-### Website Settings
+### General Settings
+
 ``` js
 export const seedDatabase = true; // Seeds database with some demo data when the database is empty
-export const multishop = false;
-export const host: string = 'http://localhost';
 export const port: number = 9000;
 export const ip: string = '0.0.0.0';
-export const env: string = 'development';
-  ```  
+```
 
 ### User Roles
+
 ``` js
 userRoles = ['user', 'manager', 'admin']; // This should be in ascending order of authority. e.g. In this case guest will not have access to any other role, where as admin will have the role of guest+user+vendor+manager+admin
 ``` 
-  
+
 ### Forgot Password Email Settings
 ``` js
 export const forgotPasswordEmail = (body: any) => { // Expects email id and password reset token
@@ -153,11 +180,34 @@ export const orderUpdatedEmail = (body: any) => {
 };
   ``` 
 
-## Environment Settings
+## Environment Settings (Server Module)
 
 ``` js
-NODE_ENV=development // Change to production after deployment
-proxy=http://localhost:9000
+DEMO=false
+PORT=9000
+NODE_ENV=production
+PROXY=http://localhost:9000
+WS_URL=http://localhost:9000
+DOMAIN=http://localhost:3000
+STORE_FRONT_URL=http://localhost:3001
 MONGODB_URI=mongodb://localhost:27017/arialshop-dev
 SESSION_SECRET=arialshop-secret
-  ``` 
+PAYPAL_MODE=sandbox
+PAYPAL_CLIENT_ID=YOUR_PAYPAL_CLIENT_ID
+PAYPAL_CLIENT_SECRET=YOUR_PAYPAL_CLIENT_SECRET
+STRIPE_APIKEY=YOUR_STRIPE_APIKEY
+INSTAMOJO_SANDBOX_MODE=true
+INSTAMOJO_API_KEY=YOUR_INSTAMOJO_API_KEY
+INSTAMOJO_AUTH_KEY=YOUR_INSTAMOJO_AUTH_KEY
+SENDGRID_API_KEY=YOUR_SENDGRID_API_KEY
+GOOGLE_MAPS_API=YOUR_GOOGLE_MAPS_API
+FACEBOOK_ID=YOUR_FACEBOOK_ID
+FACEBOOK_SECRET=YOUR_FACEBOOK_SECRET
+TWITTER_ID=YOUR_TWITTER_ID
+TWITTER_SECRET=YOUR_TWITTER_SECRET
+GOOGLE_ID=YOUR_GOOGLE_ID
+GOOGLE_SECRET=YOUR_GOOGLE_SECRET
+TWILIO_API_KEY=YOUR_TWILIO_API_KEY
+FAST2SMS_API_KEY=YOUR_FAST2SMS_API_KEY
+Fast2SMS_OTP_TEMPLATE_ID=YOUR_Fast2SMS_OTP_TEMPLATE_ID
+``` 
