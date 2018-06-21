@@ -2,8 +2,14 @@
 title: Usage Instructions (Guide)
 date: 2018-06-18 06:40:12
 ---
-## Home
- This is the main page of our Angular e-commerce store. Here we get
+## Home page
+The home page of our web app. It contains
+- Jumbo sliders with images
+- Banners for shop promotion
+- Some features products
+
+## Products page
+ This is the products page of our Javascript e-commerce store. Here we get
 
   - List of all products
   - Filter Products: based on `Price (Price Slider), Brand, Features (Color, Type, Fit, Fabric, Neck)`
@@ -26,9 +32,8 @@ quantity option By clicking each product we arrive at the product detail page
 
 <br/>
 ## Search
- The top navigation bar of the website has a search box which autocompletes with product info while user
-starts typing. By clicking a suggested item in the search bar, the page navigates to the product details page of the selected
-product.
+ The top navigation bar of the website has a search box which auto search while user
+starts typing. 
 
 ## Category
  Get the current category name with all products under it<br/> This page also has all the filter and sort options.
@@ -37,7 +42,7 @@ product.
 This store is featured with a shopping cart facility which is easy to use and fast.
   - Get quick summary of what is there in Cart
   - Modify the cart quantity
-  - Checkout using Paypal
+  - Checkout using Paypal, COD, Instamojo
 
 ## Login / Signup
 
@@ -52,9 +57,9 @@ login and signup page has the option for connect using facebook, twitter, google
 
   - The checkout page Displays the Order Amount + ShipCharge
   - This also has an option discount coupons which is appif valid.
-  - Here the user can choose the Payment options (CasDelivery, Paypal)
+  - Here the user can choose the Payment options (Cash On Delivery, Paypal, Instamojo[India] )
   - This page automatically choose the best available ShipOptions based on the total order weight and the shipper availability.
-  - While checkout the user can choose from any saddress.
+  - While checkout the user can choose from any address.
 
 ## Address Management
  The address management is integrated into the checkout page to make the checkout experience single view

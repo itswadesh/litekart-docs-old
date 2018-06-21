@@ -33,6 +33,7 @@ In simple terms I will call this Flipkart Clone. Although not as complete like t
 - OAUTH Login (local, facebook) 
 - Product variants, wishlist, Reviews and Ratings, Emails,Filters, Multicurrency
 - Modular application structure
+- Multiple customer address support
 - Streamlined orders management & processing in the backend
 - Stripe is finally there and works
 - 100 Light House Score (out of 100) + offline enabled

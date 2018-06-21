@@ -12,15 +12,14 @@ Path: <em>config.js</em>
 proxy: 'http://localhost:3000', //proxy: 'https://admin.arialshop.com',
 WS_URL: 'http://localhost:9000', //proxy: 'https://admin.arialshop.com' Used at plugins/socketjs,
 STRIPE_URL: 'https://api.stripe.com',
-STRIPE_PUBLISHABLE_KEY: 'pk_test_srKHaSHynBIVLX03r33xLszb',
-ANALYTICS_TRACKING_ID: 'UA-49421899-3',
-GOOGLE_MAPS_API_KEY: 'AIzaSyBIG0jd-iPEfUhwt8tD-Tjxt-yrPFgfRXc',
+STRIPE_PUBLISHABLE_KEY: 'pk_test_REST_OF_YOUR_KEY',
+ANALYTICS_TRACKING_ID: 'UA-ANALYTICS-ID',
+GOOGLE_MAPS_API_KEY: 'GOOGLE_MAPS_API_KEY',
 typingTimeout: 700, // Used for searching e.g. search.vue
 loadingTimeout: 500, // Used for showing the loading indicator at each page
 snackTimer: 5000, // The amount of time  the snackbar should be visible
 recordsPerScroll: 50, // At a time 50 records will be called from api unless specified explicitly
-clearCart: true, // Whether to clear the cart after order is placed. Useful while testing
-export const clearCart = true // Whether to clear the cart after order is placed. Useful while testing
+clearCart: true // Whether to clear the cart after order is placed. Useful while testing
 ```  
 <!-- 
 ### List of order status for order management
@@ -71,6 +70,17 @@ menuItems: [
 ## Server Settings-1
 path: <em>config.js</em>
 
+### User roles and regional settings
+``` js 
+userRoles: ['user', 'vendor', 'manager', 'admin'], // This should be in ascending order of authority. e.g. In this case guest will not have access to any other role, where as admin will have the role of guest+user+vendor+manager+admin
+currency: { // Used at filter/
+  symbol: '₹',
+  code: 'INR', // Shop currency
+  paypal: 'USD',// Paypal currency code *** Please choose from https://developer.paypal.com/docs/classic/api/currency_codes/
+  exchange_rate: '1' // Paypal currency code(USD) / Shop currency (INR) ***  exchange_rate should not be 0 else it will generate divided by 0 error
+},
+```
+
 ### Menu Items (Userd at left menu and topmenu)
 
 ``` js 
@@ -110,7 +120,7 @@ export const ip: string = '0.0.0.0';
 ### User Roles
 
 ``` js
-userRoles = ['user', 'manager', 'admin']; // This should be in ascending order of authority. e.g. In this case guest will not have access to any other role, where as admin will have the role of guest+user+vendor+manager+admin
+userRoles = ['user', 'vendor', 'manager', 'admin']; // This should be in ascending order of authority. e.g. In this case guest will not have access to any other role, where as admin will have the role of guest+user+vendor+manager+admin
 ``` 
 
 ### Forgot Password Email Settings
@@ -188,7 +198,7 @@ PORT=9000
 NODE_ENV=production
 PROXY=http://localhost:9000
 WS_URL=http://localhost:9000
-DOMAIN=http://localhost:3000
+DOMAIN=http://localhost:3000 # used for paypal payments
 STORE_FRONT_URL=http://localhost:3001
 MONGODB_URI=mongodb://localhost:27017/arialshop-dev
 SESSION_SECRET=arialshop-secret
