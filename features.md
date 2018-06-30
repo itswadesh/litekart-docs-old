@@ -1,11 +1,29 @@
 ## Store Front
+- Sliders and banners, deals
+- Contact us modal/dialog
+- SEO optimized product URLs
+- Custom product URLs
+- Auto handle all 404 requests
+- Each page optimization using title, meta description
+- Default page title and meta
+- Inbuild product image zoom functionality
+- Minimal user navigationi
+- Home page with image carousel
+- Deals section with countdown timer
+- Banners with manager from admin panel
+- Featured products section
+- Megamenu
+- Headrs up notice at top of store front
 
 ## Store Back Office
-
-## Customizations
-
-## Advanced Features
-- SEO Ready
+- Out of the box Analytics setup
+- Information Dashboard
+- Realtime order notifications for admin
+- SEO ready platform
+- Sort and filter orders
+- Bestow your custoemrs with faster shopping experience
+- Product moderation with an option to enable/disable
+- Change store title, logo from settings
 
 ## Technology and Hosting
 - Preloading
@@ -28,7 +46,10 @@
 - OTP/Password based authentication
 - Local login mechanism with phone and emails
 - Cookie / Localstore module
+
 ## For Developers
+- Full source code shared
+- Modular and clean code
 - Dynamic Forms
 - REST API based architecture
 - Full Javascript Stack
@@ -37,13 +58,14 @@
 - NoSQL based database
 - Faster load time and better SEO ranking
 - Unlimited customization option
+- Simplified installation and configuration
+- Easy deployment to production server
 - 
 ## Highlights
-- Full source code shared
-- Modular and clean code
 - Most advanced technology stack
 - Blazing fast technology
 - SEO ready
+- Material Design
 - Modern & Intuitive
 - Multiple delivery address support for customers
 - Scalable and can handle 1000000 request per second
@@ -60,21 +82,6 @@
 - 4 static pages
 - Multi lingual store
 - Editable email and sms templates
-- Sliders and banners, deals
-- Contact us modal/dialog
-- SEO optimized product URLs
-- Custom product URLs
-- Auto handle all 404 requests
-- Each page optimization using title, meta description
-- Default page title and meta
-- Inbuild product image zoom functionality
-- Minimal user navigationi
-- Home page with image carousel
-- Deals section with countdown timer
-- Banners with manager from admin panel
-- Featured products section
-- Megamenu
-- Headrs up notice at top of store front
 
 ## Products and merchantizing
 - Unlimited product variants (color,size,etc)
@@ -101,7 +108,7 @@
 - Cart synchromization across devices
 - Single page checkout
 - Order statuses
-- Email, sms based order updates
+- Email, SMS based order updates
 - Customizable shipping per product
 - Barcode support
 - SKU for your own product management
@@ -118,13 +125,3 @@
 - Cash on delivery payment option
 - Payment through Credit/Debit Cards
 - Payment through net banking
-
-## Admin Features
-- Out of the box Analytics setup
-- Information Dashboard
-- Realtime order notifications for admin
-- SEO ready platform
-- Sort and filter orders
-- Bestow your custoemrs with faster shopping experience
-- Product moderation with an option to enable/disable
-- Change store title, logo from settings
