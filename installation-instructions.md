@@ -15,7 +15,7 @@ Download and install the following softwares
 - [Yarn](https://yarnpkg.com/en/docs/install)
 - [Python 2.7](https://www.python.org/downloads/release/python-2715/)
 
-OR through terminal
+OR through terminal (Need [chocolatey](https://chocolatey.org/) for windows)
 ``` bash
 # For Windows
 choco install nodejs mongodb yarn python2
@@ -43,6 +43,12 @@ Run the follwoing commands from an elevated termnial/command prompt. In Windows 
 ### Run the following 2 commands
   This will install the required node dependencies and start the Server at [http://localhost:3000](http://localhost:3000) (Admin Panel), [http://localhost:3001](http://localhost:3001) (Store Front) 
   ``` bash
+cd D:\arialshop\arialshop-admin
+npm i
+npm run dev
+  ```  
+  ``` bash
+cd D:\arialshop\arialshop-store-front
 npm i
 npm run dev
   ```  
