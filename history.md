@@ -3,6 +3,30 @@ title: Change Log - Development History
 date: 2018-06-18 06:40:12
 ---
 ## Development History
+**04-Aug-2018 Version 6.3.6**
+- feature: Facebook and google login
+
+**01-Aug-2018 Version 6.3.5**
+- fix: PORT at .env replaced with SERVERPORT because of clash with PORT of nuxt config
+
+**30-Jun-2018 Version 6.3.4**
+- feature: Pending order notifications
+- feature: Tolltip on shopSettings & images
+- feature: Editable payment methods
+
+**28-Jun-2018 Version 6.3.3**
+- feature: zip code based delivery
+
+**27-Jun-2018 Version 6.3.2**
+- feature: Stripe payment
+
+**26-Jun-2018 Version 6.3.1**
+- fix: Product reviews (edit, active, delete)
+
+**24-Jun-2018 Version 6.3.0**
+- fix: fix: signup + user roles + card height 
+- feature: Draggable image gallery
+- fix: Product edit page layout
 
 **22-Jun-2018 Version 6.2.0**
 - phone mask           
