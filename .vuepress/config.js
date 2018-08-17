@@ -5,6 +5,7 @@ module.exports = {
         ['link', { rel: 'icon', href: '/img/logo.png' }],
         ['link', { rel: 'shortcut icon', type: "image/png", href: '/img/favicon.png' }]
     ],
+    serviceWorker: true,
     themeConfig: {
         sidebar: 'auto',
         nav: [
@@ -15,6 +16,9 @@ module.exports = {
             { text: 'Directory Structure', link: '/directory-structure.html' },
             { text: 'History', link: '/history.html' },
             { text: 'Arialshop', link: 'https://codecanyon.net/item/progressive-single-page-ecommerce-app-using-vuejs/20596887' },
-        ]
+        ],
+        serviceWorker: {
+            updatePopup: true
+        }
     }
 }
