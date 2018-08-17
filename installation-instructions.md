@@ -5,7 +5,7 @@ date: 2018-06-18 06:40:12
 
 # Installation Instructions
 ::: warning COMPATIBILITY NOTE
-Arialshop v6 requires Node.js 8.x
+Arialshop v6 requires Node.js 10.x
 :::
 
 ## Softwares Required
@@ -44,13 +44,13 @@ Run the follwoing commands from an elevated termnial/command prompt. In Windows 
   This will install the required node dependencies and start the Server at [http://localhost:3000](http://localhost:3000) (Admin Panel), [http://localhost:3001](http://localhost:3001) (Store Front) 
   ``` bash
 cd D:\arialshop\arialshop-admin
-npm i
-npm run dev
+yarn
+yarn dev
   ```  
   ``` bash
 cd D:\arialshop\arialshop-store-front
-npm i
-npm run dev
+yarn
+yarn dev
   ```  
 **That's it !!!**
 
@@ -65,12 +65,12 @@ Add your logo/icon(512px*512px) to static directory of store-front (This step is
 
 The follwing command will generate both client and server files inside dist directory which can be directly copied to production server
   ``` bash
-npm run prod
+yarn prod
   ```  
 Now copy the files inside **.nuxt** and **dist** directory to the production server (For both store front and store back office)
 
 ### Start the server
 Login to cloud shell and run the following command
   ``` bash
-npm start
+yarn start
   ```  

@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev",
-    "build": "vuepress build"
+    "build": "vuepress build",
+    "prod": "vuepress build"
   },
   "dependencies": {},
   "devDependencies": {
