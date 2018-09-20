@@ -14,8 +14,8 @@
     "vuepress": "^0.14.2"
   },
   "engines": {
-    "node": ">=8.x",
-    "npm": ">=5.x"
+    "node": ">=10.x",
+    "npm": ">=6.x"
   },
   "browserslist": [
     "> 1%",
