@@ -36,7 +36,7 @@ In simple terms I will call this Flipkart Clone. Although not as complete like t
 - Multiple customer address support
 - Streamlined orders management & processing in the backend
 - Stripe is finally there and works
-- 100 Light House Score (out of 100) + offline enabled
+- `>90` Light House Score (out of 100) + offline enabled
 - Multilingual
 - Enhanced multiple variations
 - Simplified, but more powerful admin
