@@ -1,3 +1,9 @@
+---
+title: Features
+date: 2019-10-12 06:40:12
+---
+# Features
+
 ## Store Front
 - Sliders and banners, deals
 - Contact us modal/dialog

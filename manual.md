@@ -1,3 +1,9 @@
+---
+title: Manual
+date: 2019-10-11 16:40:12
+---
+# Manual
+
 ## Description of Website
 
 ### Online Shopping:

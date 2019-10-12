@@ -11,7 +11,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "vuepress": "^0.14.4"
+    "vuepress": "^1.2.0"
   },
   "engines": {
     "node": ">=10.x",
