@@ -22,7 +22,7 @@ This is based on ReST API and disconnected architecture. Hence you are free to u
 This has the potential to be converted to any type of ecommerce from Fashion Store, Electronics, Grocery Store with a little customizations
 
 ::: tip INFO
-In simple terms I will call this Flipkart Clone. Although not as complete like the giant [Flipkart](https://www.flipkart.com/), most of this scripts features are inspired from Flipkart resulting speed and better usability.
+This is an extended version of [Foodfire](https://foodfire.info/), most of this scripts features are inspired from Foodfire resulting speed and better usability.
 :::
 
 - Fast and light weight
