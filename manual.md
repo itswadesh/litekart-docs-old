@@ -23,7 +23,6 @@ date: 2019-10-11 16:40:12
 
 After filling all details, we have a sign in button which will check the user is valid or not, if it is valid then it will open my account or if it detects that the ID & password is invalid then the user has to input the details carefully.
 
-<center><img src="./img/signin.png"></center>
 
 <center><img src="./img/capture.png"></center>
 

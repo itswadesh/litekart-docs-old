@@ -2,8 +2,8 @@ module.exports = {
     title: 'Documentation for Arialshop V6',
     description: 'Install and start Arialshop with these simple steps',
     head: [
-        ['link', { rel: 'icon', href: '/img/logo.png' }],
-        ['link', { rel: 'shortcut icon', type: "image/png", href: '/img/favicon.png' }]
+        ['link', { rel: 'icon', href: '/assets/img/logo.png' }],
+        ['link', { rel: 'shortcut icon', type: "image/png", href: '/assets/img/favicon.png' }]
     ],
     serviceWorker: true,
     themeConfig: {
