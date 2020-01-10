@@ -42,7 +42,7 @@ date: 2018-06-18 06:40:12
 - userRoles, orderStatus, paymentStatus into settings
 
 **20-jun-2018 Version 6.1.8**
-- renamed: ShopNx -> Arialshop
+- renamed: ShopNx -> Litekart
 - logo size
 
 **19-jun-2018 Version 6.1.7**
@@ -312,4 +312,4 @@ Branches
 - changes for freshnow 
 
 **25-Feb-2018 Version 5.6.3**
-- Arialshop rennovation project initiated 
+- Litekart rennovation project initiated 

@@ -5,7 +5,7 @@ date: 2018-06-18 06:40:12
 
 # Installation Instructions
 ::: warning COMPATIBILITY NOTE
-Arialshop v6 requires Node.js 10.x
+Litekart requires Node.js > 10.x
 :::
 
 ## Softwares Required
@@ -31,7 +31,7 @@ We also need node-gyp installed. Please follow the steps to install it
 Download and unzip the file from codecanyon and navigate inside the directory
 
 ``` bash
-cd arialshop
+cd litekart
 ```
 ### Start database
 Start mongodb in a separate shell
@@ -43,12 +43,12 @@ Run the follwoing commands from an elevated termnial/command prompt. In Windows 
 ### Run the following 2 commands
   This will install the required node dependencies and start the Server at [http://localhost:3000](http://localhost:3000) (Admin Panel), [http://localhost:3001](http://localhost:3001) (Store Front) 
   ``` bash
-cd D:\arialshop\arialshop-admin
+cd D:\litekart\litekart-admin
 yarn
 yarn dev
   ```  
   ``` bash
-cd D:\arialshop\arialshop-store-front
+cd D:\litekart\litekart-store-front
 yarn
 yarn dev
   ```  

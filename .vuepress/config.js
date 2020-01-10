@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Documentation for Arialshop V6',
-    description: 'Install and start Arialshop with these simple steps',
+    title: 'Documentation for Litekart',
+    description: 'Install and start Litekart with these simple steps',
     head: [
         ['link', { rel: 'icon', href: '/assets/img/logo.png' }],
         ['link', { rel: 'shortcut icon', type: "image/png", href: '/assets/img/favicon.png' }]
@@ -18,7 +18,7 @@ module.exports = {
             { text: 'API', link: '/api.html' },
             { text: 'Manual', link: '/manual.html' },
             { text: 'History', link: '/history.html' },
-            { text: 'Arialshop', link: 'https://codecanyon.net/item/progressive-single-page-ecommerce-app-using-vuejs/20596887' },
+            { text: 'Litekart', link: 'https://codecanyon.net/item/progressive-single-page-ecommerce-app-using-vuejs/20596887' },
         ],
         serviceWorker: {
             updatePopup: true

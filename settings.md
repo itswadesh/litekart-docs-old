@@ -1,5 +1,5 @@
 ---
-title: Settings (Arialshop)
+title: Settings (Litekart)
 date: 2018-06-18 06:40:12
 ---
 ## Client Settings
@@ -9,8 +9,8 @@ Path: <em>config.js</em>
 ### General Variables
 
 ``` js
-proxy: 'http://localhost:3000', //proxy: 'https://admin.arialshop.com',
-WS_URL: 'http://localhost:9000', //proxy: 'https://admin.arialshop.com' Used at plugins/socketjs,
+proxy: 'http://localhost:3000', //proxy: 'https://admin.litekart.com',
+WS_URL: 'http://localhost:9000', //proxy: 'https://admin.litekart.com' Used at plugins/socketjs,
 STRIPE_URL: 'https://api.stripe.com',
 STRIPE_PUBLISHABLE_KEY: 'pk_test_REST_OF_YOUR_KEY',
 ANALYTICS_TRACKING_ID: 'UA-ANALYTICS-ID',
@@ -127,9 +127,9 @@ userRoles = ['user', 'vendor', 'manager', 'admin']; // This should be in ascendi
 ``` js
 export const forgotPasswordEmail = (body: any) => { // Expects email id and password reset token
   return {
-    from: 'passwordreset@arialshop.com',
+    from: 'passwordreset@litekart.com',
     to: body.email,
-    subject: 'Arialshop Password Reset Request',
+    subject: 'Litekart Password Reset Request',
     text: 'You are receiving this because you (or someone else) have requested the reset of the password for your account.\n\n' +
       'Please click on the following link, or paste this into your browser to complete the process:\n\n' +
       process.env.DOMAIN + '/account/reset-password/' + body.token + '\n\n' +
@@ -141,9 +141,9 @@ export const forgotPasswordEmail = (body: any) => { // Expects email id and pass
 ``` js
 export const resetPasswordEmail = (body: any) => { // Expects email id and name
   return {
-    from: 'passwordreset@arialshop.com',
+    from: 'passwordreset@litekart.com',
     to: body.email,
-    subject: 'Arialshop Password Changed',
+    subject: 'Litekart Password Changed',
     text: 'Hello,\n\n' +
       'This is a confirmation that the password for your account ' + body.to + ' has just been changed.\n'
   };
@@ -154,7 +154,7 @@ export const resetPasswordEmail = (body: any) => { // Expects email id and name
 ``` js
 export const orderPlacedEmail = (body: any) => { // Expects email id, orderNo, ...
   return {
-    from: 'Arialshop <admin@arialshop.com>',
+    from: 'Litekart <admin@litekart.com>',
     to: body.to,
     subject: 'Order Placed Successfully',
     text: 'Order No: ' + body.orderNo
@@ -173,7 +173,7 @@ export const orderPlacedEmail = (body: any) => { // Expects email id, orderNo, .
 ``` js
 export const orderUpdatedEmail = (body: any) => {
   return {
-    from: 'Arialshop <admin@arialshop.com>',
+    from: 'Litekart <admin@litekart.com>',
     to: body.to,
     subject: 'Your Order Status Updated',
     text: 'Order No: ' + body.orderNo
@@ -200,8 +200,8 @@ PROXY=http://localhost:9000
 WS_URL=http://localhost:9000
 DOMAIN=http://localhost:3000 # used for paypal payments
 STORE_FRONT_URL=http://localhost:3001
-MONGODB_URI=mongodb://localhost:27017/arialshop-dev
-SESSION_SECRET=arialshop-secret
+MONGODB_URI=mongodb://localhost:27017/litekart-dev
+SESSION_SECRET=litekart-secret
 PAYPAL_MODE=sandbox
 PAYPAL_CLIENT_ID=YOUR_PAYPAL_CLIENT_ID
 PAYPAL_CLIENT_SECRET=YOUR_PAYPAL_CLIENT_SECRET

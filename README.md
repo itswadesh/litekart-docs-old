@@ -13,9 +13,9 @@ features:
 footer: Codecanyon Licensed | Copyright © 2018-present Swadesh Behera
 ---
 
-## About Arialshop
+## About Litekart
 
-Arialshop is a Javascript ecommerce software that focus mainly on speed and ease of use. It is built over the cutting edge technology and purely modular code.
+Litekart is a Javascript ecommerce software that focus mainly on speed and ease of use. It is built over the cutting edge technology and purely modular code.
 
 This is based on ReST API and disconnected architecture. Hence you are free to use any front-end or backend. For the same reason I separated both store front and store back office. Now you are free to use any ecommerce service like Moltin or even Firebase.
 
@@ -51,14 +51,14 @@ This is highly scalable and can handle many connections at a time. Ecommerce gia
 Being an **asynchronous event driven architecture** its speed goes upto 5 fold as compared to existing php or wordpress based ecommerce solutions.
 
 ## Past
-ArialShop V6 is an evolution of ArialShop Javascript ecommerce first released 36 Earthian months back with a code name “ShopNx”
+Litekart is an evolution of Arialshop Javascript ecommerce first released 36 Earthian months back with a code name “ShopNx”
 
-- ArialShop V6 – “ArialShop” V6 (VueJS) 
-- ArialShop V5 – Redeveloped core engine from scratch during over 8 months 
-- ArialShop V4 – “Arialshop” (VueJS) 
-- ArialShop V3 – “Hopyshopy” (Angular4) 
-- ArialShop V2 – “MaterialShop” (AngularJS 1.6) 
-- ArialShop V1 – “ShopNx” (AngularJS 1.5)
+- Arialshop V6 – “Arialshop” V6 (VueJS) 
+- Arialshop V5 – Redeveloped core engine from scratch during over 8 months 
+- Arialshop V4 – “Arialshop” (VueJS) 
+- Arialshop V3 – “Hopyshopy” (Angular4) 
+- Arialshop V2 – “MaterialShop” (AngularJS 1.6) 
+- Arialshop V1 – “ShopNx” (AngularJS 1.5)
 
 ## Upcoming Updates
 - Inventory Manager module
