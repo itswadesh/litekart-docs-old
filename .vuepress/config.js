@@ -18,7 +18,7 @@ module.exports = {
             { text: 'API', link: '/api.html' },
             { text: 'Manual', link: '/manual.html' },
             { text: 'History', link: '/history.html' },
-            { text: 'Litekart', link: 'https://codecanyon.net/item/progressive-single-page-ecommerce-app-using-vuejs/20596887' },
+            { text: 'Litekart', link: 'https://www.litekart.in' },
         ],
         serviceWorker: {
             updatePopup: true
