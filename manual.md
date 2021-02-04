@@ -84,7 +84,7 @@ Different variety of products can be seen & we can see the details of prod-ucts.
 
 • It has a barcode. Bar code is a square or rectangular image consist of a series of parallel blacklines & white spaces of varying widths that can be read by a scanner. Barcodes are applied to products as a means of quick identifica-tion.
 
-<center><img src="./img/product.png"></center>
+<center><img src="./img/product-list.png"></center>
 
 ### Manage order: -
 
@@ -142,7 +142,7 @@ The list has 4 rows that contains option like Action, name, image and active thi
 4. In the active section we can see the brand that are recently availing some discounts and other offers.
    And at the last we have an add symbol at the bottom of the page so that one can add some other brand that are not listed in the list.
 
-<center><img src="./img/brand.png"></center>
+<center><img src="./img/list-brands.png"></center>
 
 ### Categories: -
 
@@ -154,7 +154,7 @@ This is an important and essential feature which provide a relief to the custome
 
 We can easily edit and delete or reset the category section so we don’t have to panic about it.
 
-<center><img src="./img/category.png"></center>
+<center><img src="./img/categories.png"></center>
 
 ### Features: -
 
@@ -164,7 +164,7 @@ In the feature section we have 5 row that are action, key, value, category and a
 
 The work of the action and category row we already know and the key and row describe the color and type of the product it is.
 
-<center><img src="./img/feature.png"></center>
+<center><img src="./img/list-features.png"></center>
 
 ### Coupons: -
 
