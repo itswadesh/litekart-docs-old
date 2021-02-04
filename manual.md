@@ -154,7 +154,7 @@ This is an important and essential feature which provide a relief to the custome
 
 We can easily edit and delete or reset the category section so we don’t have to panic about it.
 
-<center><img src="./img/categories.png"></center>
+<center><img src="/img/categories.png"></center>
 
 ### Features: -
 

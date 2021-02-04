@@ -40,7 +40,7 @@ This page allows to edit complete details of the product, this has four phases -
 - Edit images
 - Edit Variants/Options
 
-<center><img src="./img/edit-product-phases.png"></center>
+<center><img src="/img/edit-product-phases.png"></center>
 
 ## Categories page
 
@@ -52,7 +52,7 @@ This is the category page of our Javascript e-commerce store. Here we get
 - Store's navigation bar at top contains all the category arranged in parent-child fashion.
 - This view provides facility to add both parent and child categories, re-arrange category association according to their requirement.
 
-<center><img src="./img/categories.png"></center>
+<center><img src="/img/categories.png"></center>
 
 ## Reviews page
 
@@ -61,7 +61,7 @@ This is the review page of product our Javascript e-commerce store. Here we get
 - List of all reviews
 - Export all reviews in csv file
 
-<center><img src="./img/review.png"></center>
+<center><img src="/img/review.png"></center>
 
 ## Options page
 
