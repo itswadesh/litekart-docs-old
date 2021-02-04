@@ -40,7 +40,7 @@ This page allows to edit complete details of the product, this has four phases -
 - Edit images
 - Edit Variants/Options
 
-<center><img src="/img/edit-product-phases.png"></center>
+<center><img src="./img/edit-product-phases.png"></center>
 
 ## Categories page
 
@@ -52,7 +52,7 @@ This is the category page of our Javascript e-commerce store. Here we get
 - Store's navigation bar at top contains all the category arranged in parent-child fashion.
 - This view provides facility to add both parent and child categories, re-arrange category association according to their requirement.
 
-<center><img src="/img/categories.png"></center>
+<center><img src="./img/categories.png"></center>
 
 ## Reviews page
 
@@ -61,7 +61,7 @@ This is the review page of product our Javascript e-commerce store. Here we get
 - List of all reviews
 - Export all reviews in csv file
 
-<center><img src="/img/review.png"></center>
+<center><img src="./img/review.png"></center>
 
 ## Options page
 
@@ -72,7 +72,7 @@ This is the options page of our Javascript e-commerce store. Here we get
 - Edit existing option
 - Export all options in csv file
 
-<center><img src="/img/edit-option.png"></center>
+<center><img src="./img/edit-option.png"></center>
 
 ## Features page
 
@@ -83,7 +83,7 @@ This is the feature page of our Javascript e-commerce store. Here we get
 - Edit existing feature
 - Export all features in csv file
 
-<center><img src="/img/edit-feature.png"></center>
+<center><img src="./img/edit-feature.png"></center>
 
 ## Brands page
 
@@ -96,7 +96,7 @@ This is the brand page of our Javascript e-commerce store. Here we get
 - filter brands
 - delete brands
 
-<center><img src="/img/edit-brand.png"></center>
+<center><img src="./img/edit-brand.png"></center>
 
 ## Coupons page
 
@@ -107,7 +107,7 @@ This is the coupon page of our Javascript e-commerce store. Here we get
 - Edit existing coupon
 - Export all coupons in csv file
 
-<center><img src="/img/edit-coupon.png"></center>
+<center><img src="./img/edit-coupon.png"></center>
 
 ## Sizes page
 
@@ -118,7 +118,7 @@ This is the coupon page of our Javascript e-commerce store. Here we get
 - Edit existing coupon
 - Export all coupons in csv file
 
-<center><img src="/img/edit-size.png"></center>
+<center><img src="./img/edit-size.png"></center>
 
 ## Colors page
 
@@ -129,7 +129,7 @@ This is the coupon page of our Javascript e-commerce store. Here we get
 - Edit existing coupon
 - Export all coupons in csv file
 
-<center><img src="/img/edit-color.png"></center>
+<center><img src="./img/edit-color.png"></center>
 
 ## Units page
 
@@ -140,7 +140,7 @@ This is the coupon page of our Javascript e-commerce store. Here we get
 - Edit existing coupon
 - Export all coupons in csv file
 
-<center><img src="/img/edit-unit.png"></center>
+<center><img src="./img/edit-unit.png"></center>
 
 # Transactions
 
@@ -155,7 +155,7 @@ This is the order page of our Javascript e-commerce store. Here we get
 - Edit existing order status
 - Export all orders in csv file
 
-<center><img src="/img/edit-order.png"></center>
+<center><img src="./img/edit-order.png"></center>
 
 ## Payments page
 
@@ -172,7 +172,7 @@ This Admin Panel is featured with a cart facility which is easy to use and fast.
 - Export all carts in csv file
 - Add new cart
 
-<center><img src="/img/new-cart.png"></center>
+<center><img src="./img/new-cart.png"></center>
 
 # Email Templates
 
@@ -193,7 +193,7 @@ This is the storefront page of settings, which allows to edit attributes like.
 - Location
 - Shipping charge
 
-<center><img src="/img/setting-storefront.png"></center>
+<center><img src="./img/setting-storefront.png"></center>
 
 ## Banners
 
@@ -203,7 +203,7 @@ This is the banner page of settings of our Javascript e-commerce store. Here we 
 - Export all reviews in csv file
 - Edit banner
 
-<center><img src="/img/setting-banner.png"></center>
+<center><img src="./img/setting-banner.png"></center>
 
 ## Images
 
@@ -212,7 +212,7 @@ This is the images page of settings of our Javascript e-commerce store. Here we 
 - Add images/logo for the setting related
 - Add images through graph image
 
-<center><img src="/img/setting-images.png"></center>
+<center><img src="./img/setting-images.png"></center>
 
 ## SMS/Email
 
@@ -222,7 +222,7 @@ This is the sms/email page of settings of our Javascript e-commerce store. Here 
 - Edit sms details
 - Edit email details
 
-<center><img src="/img/setting-sms-email.png"></center>
+<center><img src="./img/setting-sms-email.png"></center>
 
 ## Payment method
 
@@ -232,7 +232,7 @@ This is the payment method page of settings of our Javascript e-commerce store. 
 - Export all payment method in csv file
 - Edit payment method
 
-<center><img src="/img/setting-payment-method.png"></center>
+<center><img src="./img/setting-payment-method.png"></center>
 
 ## Pages
 
@@ -242,7 +242,7 @@ This page is responsible for settings of our Javascript e-commerce store pages. 
 - Export all pages setting in csv file
 - Edit pages setting
 
-<center><img src="/img/setting-page.png"></center>
+<center><img src="./img/setting-page.png"></center>
 
 ## Deals
 
@@ -252,7 +252,7 @@ This is the deal page of settings of our Javascript e-commerce store. Here we ge
 - Create new deal
 - Edit deal
 
-<center><img src="/img/setting-deal.png"></center>
+<center><img src="./img/setting-deal.png"></center>
 
 # Monitoring
 
@@ -272,7 +272,7 @@ This page is responsible for import/eport of our Javascript e-commerce store. He
 
 Import product allows to import products from csv file.
 
-<center><img src="/img/import.png"></center>
+<center><img src="./img/import.png"></center>
 
 ## Export
 
@@ -285,7 +285,7 @@ Export product allows to download the data in csv file. This provide these expor
 - Export size
 - Export users
 
-<center><img src="/img/export.png"></center>
+<center><img src="./img/export.png"></center>
 
 # Users
 
@@ -299,7 +299,7 @@ This is the Users page of our Javascript e-commerce store. Here we get
 - Sort by
 - Add new user
 
-<center><img src="/img/list-users.png"></center>
+<center><img src="./img/list-users.png"></center>
 
 # Address
 
@@ -311,13 +311,13 @@ This is the Address page of our Javascript e-commerce store. Here we get
 - delete address
 - Add new address
 
-<center><img src="/img/edit-address.png"></center>
+<center><img src="./img/edit-address.png"></center>
 
 # Profile
 
 This is the profile page of our Javascript e-commerce store. Here admin can edit profile.
 
-<center><img src="/img/edit-profile.png"></center>
+<center><img src="./img/edit-profile.png"></center>
 
 # Login / Signup
 

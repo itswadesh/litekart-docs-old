@@ -71,7 +71,7 @@ Now open [http://localhost:3000](http://localhost:3000) (Admin Panel) and [http:
 
 ## Building files for production server
 
-<img src="/img/deploy.png" alt="deployment"/>
+<img src="./img/deploy.png" alt="deployment"/>
 
 Add your logo/icon(512px\*512px) to static directory of store-front (This step is essential to generate icons for Progressive Web App)
 
