@@ -26,25 +26,25 @@ It has two parts: -
 
 After filling all details, we have a sign in button which will check the user is valid or not, if it is valid then it will open my account or if it detects that the ID & password is invalid then the user has to input the details carefully.
 
-<center><img src="./img/capture.png"></center>
+<center><img src="/img/capture.png"></center>
 
 ### Forgot Password: -
 
 If a customer forgot his/her password then he/she has to click on the forgot password then there he/she need to answer some security question. Then he/she given at the time of opening account.
 
-<center><img src="./img/forgot.png"></center>
+<center><img src="/img/forgot.png"></center>
 
 ### Sign up: -
 
 If a user is not register to website then he/she can create a new account using sign up.
 
-<center><img src="./img/signup.png"></center>
+<center><img src="/img/signup.png"></center>
 
 ### Login with Facebook: -
 
 If a user wants to open account he/she can directly connect with Facebook. So the account will be open using Facebook details.
 
- <center><img src="./img/fb.png"></center>
+ <center><img src="/img/fb.png"></center>
 
 After successfully login then the Menu page will be listed in the left corner of the page & the 1st option that will be opened is Dashboard.
 
@@ -58,23 +58,23 @@ In the Dashboard there are different option that we can see such like: -
 
 - Total products.
 
-<center><img src="./img/dashboard.png"></center>
+<center><img src="/img/dashboard.png"></center>
 
 ### Pending Orders: -
 
 In pending orders we can see the status of the order place by the cus-tomer & we can get details about it.
 
-<center><img src="./img/pending.png"></center>
+<center><img src="/img/pending.png"></center>
 
 ### Reviews: -
 
 Review is the nothing but a comment box in which customers give their re-views about the product that they have ordered & used. In this the customer gives some ratings to the product in a form of stars that has different meaning.
 
-<center><img src="./img/review.png"></center>
+<center><img src="/img/review.png"></center>
 
 • In right corner of the page have subscribe link. One can follow or subscribe the web-site.
 
-<center><img src="./img/subscription.png"></center>
+<center><img src="/img/subscription.png"></center>
 
 ### Products: -
 
@@ -84,7 +84,7 @@ Different variety of products can be seen & we can see the details of prod-ucts.
 
 • It has a barcode. Bar code is a square or rectangular image consist of a series of parallel blacklines & white spaces of varying widths that can be read by a scanner. Barcodes are applied to products as a means of quick identifica-tion.
 
-<center><img src="./img/product-list.png"></center>
+<center><img src="/img/product-list.png"></center>
 
 ### Manage order: -
 
@@ -96,7 +96,7 @@ In the manage order we see the order that are pending, shipped, cancelled and th
 
 Here a customer support option is provided by us that a customer can never face any prob-lem regarding the order.
 
-<center><img src="./img/order.png"></center>
+<center><img src="/img/order.png"></center>
 
 ### Manage Review: -
 
@@ -118,7 +118,7 @@ Review section is having rating in the form of giving stars to the products. The
 
 A user can anytime give any comment to the product and he can edit and delete it too.
 
-<center><img src="./img/manage-review.png"></center>
+<center><img src="/img/manage-review.png"></center>
 
 ### Media library: -
 
@@ -128,7 +128,7 @@ We can see the product that we are inserted before sometime and delete it too so
 
 Media library allows a customer to sell his or her own items that he/she want to sell.
 
-<center><img src="./img/media.png"></center>
+<center><img src="/img/media.png"></center>
 
 ### Brand: -
 
@@ -142,7 +142,7 @@ The list has 4 rows that contains option like Action, name, image and active thi
 4. In the active section we can see the brand that are recently availing some discounts and other offers.
    And at the last we have an add symbol at the bottom of the page so that one can add some other brand that are not listed in the list.
 
-<center><img src="./img/list-brands.png"></center>
+<center><img src="/img/list-brands.png"></center>
 
 ### Categories: -
 
@@ -164,7 +164,7 @@ In the feature section we have 5 row that are action, key, value, category and a
 
 The work of the action and category row we already know and the key and row describe the color and type of the product it is.
 
-<center><img src="./img/list-features.png"></center>
+<center><img src="/img/list-features.png"></center>
 
 ### Coupons: -
 
@@ -176,7 +176,7 @@ We can see that if we open the page then we see the action the code, amount and 
 
 Coupons are the best way to attract the customer and start exploring and attracting the customer.
 
-<center><img src="./img/coupon.png"></center>
+<center><img src="/img/coupon.png"></center>
 
 ### Shipping: -
 
@@ -186,7 +186,7 @@ It gives full details about the product that is going to be delivered and throug
 
 It gives the details about the cost and the expected date of delivering the product to the customer can be easily known form here.
 
-<center><img src="./img/shipping.png"></center>
+<center><img src="/img/shipping.png"></center>
 
 ### Payment: -
 
@@ -200,7 +200,7 @@ As we can see that here we have an order that is having an order date and the am
 
 We can choose different other paying option like credit card, debit card, online banking or through the UPI.
 
-<center><img src="./img/payment.png"></center>
+<center><img src="/img/payment.png"></center>
 
 ### User: -
 
@@ -212,7 +212,7 @@ Through this we can easily contact them by the phone number and other details li
 
 We can see photo of every user that is active and are performing any role in the website.
 
-<center><img src="./img/user.png"></center>
+<center><img src="/img/user.png"></center>
 
 ### Profile: -
 
@@ -221,7 +221,7 @@ This is very much important so that every small change can be regularly updated 
 
 Through this we can update the details like ph. no, address and other important data that we need to regular update so that it will help to make an account very strong and active.
 
-<center><img src="./img/profile.png"></center>
+<center><img src="/img/profile.png"></center>
 
 ### Change Password: -
 
@@ -233,7 +233,7 @@ In the next step we have to enter the new password that we will use to login the
 
 After filling all the details just, we have to click on the change password button.
 
-<center><img src="./img/change-password.png"></center>
+<center><img src="/img/change-password.png"></center>
 
 ### Setting: -
 
@@ -263,7 +263,7 @@ In the SMS enable option when we enable the messaging facility which allow the a
 
 In the payment section the admin chooses the way through which can choose the medium to pay.
 
- <center><img src="./img/setting.png"></center>
+ <center><img src="/img/setting.png"></center>
 
 ### Site Pages: -
 
@@ -277,7 +277,7 @@ In the site page, admin can create new contents, like
 
 • Shipping
 
- <center><img src="./img/site-pages.png"></center>
+ <center><img src="/img/site-pages.png"></center>
 
 ### Banner: -
 
@@ -289,4 +289,4 @@ In the Banner page different tabs are there, like
 
 - Deal of the day: - 3rd section at homepage. Page which shows active deals.
 
-<center><img src="./img/banner.png"></center>
+<center><img src="/img/banner.png"></center>
