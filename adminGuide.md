@@ -1,40 +1,44 @@
 ---
-title: Usage Instructions (Guide)
+title: Usage Instructions (Vendor Guide)
 date: 2018-06-18 06:40:12
 ---
 
-## Home page
+# Dashboard
 
-The home page of our web app. It contains
+The dashboard of our multi-vendor web app. It contains
 
-- Jumbo sliders with images
-- Banners for shop promotion
-- Some features products
+- Customers count
+- Products count
+- Categories count
+- Orders count
+- Payments count
+- Pending orders list
+
+# Catalog
+
+The catalog is combined of product, category, product attribute, coupon and manufacturer modules. With the help of these modules, you will be able to manage your product catalog effortlessly. All the functionalities you need is there.
 
 ## Products page
 
 This is the products page of our Javascript e-commerce store. Here we get
 
 - List of all products
+- Export all products in csv file
 - Filter Products: based on `Price (Price Slider), Brand, Features (Color, Type, Fit, Fabric, Neck)`
 - Sort: Based on Price and Name
+- Delete product button
+- Refresh products button
+- Add new product button
+- Product Edit Page link
 
-Each product contains a add to cart button. Once the product is added into the cart, we get the increase or decrease cart
-quantity option By clicking each product we arrive at the product detail page
+### Product Edit
 
-## Product Details
+This page allows to edit complete details of the product, this has four phases -
 
-This page presents the complete details of the product
-
-- Product name
-- Description
-- Price, MRP
-- Product Image (Including additional images)
-- Brand
-- Category
-- Quantity in cart
-- Size
-- Features
+- Product Details
+- Add Features
+- Images
+- Variants/Options
 
 <br/>
 ## Search
